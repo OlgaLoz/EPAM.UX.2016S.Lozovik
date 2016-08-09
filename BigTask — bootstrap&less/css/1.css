@@ -1,0 +1,260 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Myriad Pro", verdana, arial;
+}
+.header {
+  overflow: hidden;
+  height: 60px;
+}
+.header h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  text-align: left;
+  margin: 10px 3px 0px 63px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #3d6cb0;
+}
+.header h2:after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 100%;
+  margin-right: -100%;
+  margin-top: -1.9%;
+  background-color: #3d6cb0;
+  vertical-align: middle;
+}
+.header .ellipse {
+  float: left;
+  padding: 3px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #3d6cb0;
+}
+.header .ellipse div {
+  padding: 13px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #3d6cb0;
+}
+.header .ellipse div span {
+  font-size: 28px;
+  font-weight: normal;
+  color: #ffffff;
+}
+.personalInfo {
+  line-height: 1;
+  padding: 5%;
+  text-align: center;
+}
+.personalInfo h2 {
+  margin-top: 15px;
+  margin-bottom: -19px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.personalInfo .big-text {
+  font-size: 50px;
+  font-weight: bold;
+}
+.personalInfo .small-text {
+  margin-left: 4px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.personalInfo .regular-text {
+  font-size: 45px;
+  font-weight: lighter;
+}
+.personalInfo .ellipse {
+  width: 188px;
+  height: 188px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-left: 64px;
+  margin-top: 0px;
+  border: 1px solid #3d6cb0;
+}
+.personalInfo .ellipse div {
+  width: 162px;
+  height: 162px;
+  border-radius: 50%;
+  background-color: #3d6cb0;
+  margin: auto;
+  margin-top: 13px;
+}
+.profile {
+  margin-top: 24px;
+  font-size: 12.5px;
+  font-weight: normal;
+}
+.profile .small-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 7px;
+  margin-right: 15px;
+  line-height: 1.2;
+}
+.contact {
+  margin-top: 38px;
+  line-height: 1.74;
+}
+.contact .header {
+  line-height: 1.2;
+}
+.contact form {
+  margin-top: 16px;
+}
+.contact label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+  display: block;
+  width: 104px;
+  color: #3d6cb0;
+  font-size: 16.6px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.contact input {
+  background: transparent;
+  border: 0px;
+  overflow: hidden;
+  font-size: 16.6px;
+  font-weight: normal;
+}
+.skills {
+  margin-top: 33px;
+  text-align: center;
+}
+.skills ul {
+  overflow: hidden;
+  list-style-type: none;
+  height: 100%;
+  margin: -23px 0px 0px -3px;
+}
+.skills li {
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #3d6cb0;
+  margin-right: 7px;
+}
+.skills .gray {
+  background: #e6e6e6;
+}
+.skills .big-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 2.15;
+  margin-top: 10px;
+  margin-left: -12px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.education ul,
+.experience ul {
+  list-style-type: none;
+  font-size: 16.6px;
+  font-weight: normal;
+  padding-left: 34px;
+}
+.education li,
+.experience li {
+  margin-bottom: -9px;
+  text-indent: 9px;
+}
+.education h4,
+.experience h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+.education .big-text,
+.experience .big-text {
+  font-weight: bold;
+  margin-right: 6px;
+  color: #3d6cb0;
+}
+.education .big-text span,
+.experience .big-text span {
+  font-weight: normal;
+  color: black;
+  margin-left: 5px;
+}
+.education .regular-text,
+.experience .regular-text {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.education .small-text,
+.experience .small-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12.5px;
+  font-weight: normal;
+  margin: 1px 10px 0px 10px;
+  text-indent: 0;
+}
+.education .circle,
+.experience .circle {
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;
+  margin: 5px 10px 5px -24px;
+}
+.experience .big-text {
+  color: #000000;
+}
+.software ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.software h5 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 21px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.progress {
+  height: 18px;
+  width: 222px;
+  margin-top: 8px;
+  background-color: #e6e6e6;
+}
+footer {
+  clear: both;
+  height: 50px;
+  text-align: center;
+  bottom: 0;
+}
+footer a {
+  width: 300px;
+  background-image: url(../images/footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: inline-block;
+}
+.clear {
+  clear: both;
+}
